@@ -1,12 +1,11 @@
-# shellcheck shell=sh
-# shellcheck disable=SC2039
+# shellcheck shell=sh disable=SC2039
 
-# author:       Li Junhao           edwin.jh.lee@gmail.com    edwinjhlee.github.io
+# author:       Li Junhao           l@x-cmd.com    edwinjhlee.github.io
 # maintainer:   Li Junhao
 
 path_ext(){
     local i 
-    local ret 
+    local ret
     local filepath
     for i in "$@"; do
         filepath=$(basename "${i}")
